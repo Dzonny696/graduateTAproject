@@ -9,13 +9,12 @@ import org.openqa.selenium.server.browserlaunchers.Sleeper;
 import org.testng.annotations.AfterClass;
 
 public class LosKorisnik {
-	
+
 	public static String username = "ivecluj1a";
 	public static String password = "IveParola2";
 	
 
 	public static final String URL = "https://www.endavauniversity.com";
-	
 	private static WebDriver driver;
 	
 	
@@ -24,7 +23,7 @@ public class LosKorisnik {
 	  
 	  driver.findElement(By.id("username")).sendKeys(username);
 	  driver.findElement(By.id("password")).sendKeys(password);
-	  driver.findElement(By.id("loginbtn")).click();
+      driver.findElement(By.id("loginbtn")).click();
 	  
       Sleeper.sleepTightInSeconds(5);
 	  
@@ -57,11 +56,3 @@ public class LosKorisnik {
   }
 
 }
-	  
-	  
-	  
-  
-  
-  
-
-

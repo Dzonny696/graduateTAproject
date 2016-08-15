@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17882" started-at="2016-08-08T07:36:05Z" finished-at="2016-08-08T07:36:23Z">
+  <suite name="Default suite" duration-ms="69" started-at="2016-08-12T13:54:16Z" finished-at="2016-08-12T13:54:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17882" started-at="2016-08-08T07:36:05Z" finished-at="2016-08-08T07:36:23Z">
-      <class name="test.LosaSifra">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.LosaSifra@7ac7a4e4]" name="beforeClass" is-config="true" duration-ms="9045" started-at="2016-08-08T09:36:05Z" finished-at="2016-08-08T09:36:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:test.LosaSifra@7ac7a4e4]" name="f" duration-ms="8135" started-at="2016-08-08T09:36:14Z" finished-at="2016-08-08T09:36:22Z">
+    <test name="Default test" duration-ms="69" started-at="2016-08-12T13:54:16Z" finished-at="2016-08-12T13:54:16Z">
+      <class name="test1.DomaciTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:test1.DomaciTest@5afa04c]" name="f" duration-ms="21" started-at="2016-08-12T15:54:16Z" finished-at="2016-08-12T15:54:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.LosaSifra@7ac7a4e4]" name="afterClass" is-config="true" duration-ms="678" started-at="2016-08-08T09:36:22Z" finished-at="2016-08-08T09:36:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- test.LosaSifra -->
+      </class> <!-- test1.DomaciTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
