@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2016-08-12T13:54:16Z" finished-at="2016-08-12T13:54:16Z">
+  <suite name="Default suite" duration-ms="17520" started-at="2016-08-15T13:51:37Z" finished-at="2016-08-15T13:51:55Z">
     <groups>
+      <group name="login">
+        <method signature="TNGAnnotations.NeuspesnoLogovanje()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="NeuspesnoLogovanje" class="test.login.TNGAnnotations"/>
+      </group> <!-- login -->
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2016-08-12T13:54:16Z" finished-at="2016-08-12T13:54:16Z">
-      <class name="test1.DomaciTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:test1.DomaciTest@5afa04c]" name="f" duration-ms="21" started-at="2016-08-12T15:54:16Z" finished-at="2016-08-12T15:54:16Z">
+    <test name="Default test" duration-ms="17520" started-at="2016-08-15T13:51:37Z" finished-at="2016-08-15T13:51:55Z">
+      <class name="test.login.TNGAnnotations">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="beforeClass" is-config="true" duration-ms="7448" started-at="2016-08-15T15:51:37Z" finished-at="2016-08-15T15:51:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- test1.DomaciTest -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="clearFields" is-config="true" duration-ms="227" started-at="2016-08-15T15:51:45Z" finished-at="2016-08-15T15:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="NeuspesnoLogovanje()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="NeuspesnoLogovanje" duration-ms="1723" started-at="2016-08-15T15:51:45Z" finished-at="2016-08-15T15:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NeuspesnoLogovanje -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="clearFields" is-config="true" duration-ms="137" started-at="2016-08-15T15:51:47Z" finished-at="2016-08-15T15:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="NeuspesnoLogovanje1()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="NeuspesnoLogovanje1" duration-ms="1755" started-at="2016-08-15T15:51:47Z" depends-on-methods="test.login.TNGAnnotations.NeuspesnoLogovanje" finished-at="2016-08-15T15:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NeuspesnoLogovanje1 -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="clearFields" is-config="true" duration-ms="136" started-at="2016-08-15T15:51:49Z" finished-at="2016-08-15T15:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="UspesnoLogovanje()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="UspesnoLogovanje" duration-ms="4923" started-at="2016-08-15T15:51:49Z" depends-on-methods="test.login.TNGAnnotations.NeuspesnoLogovanje1" finished-at="2016-08-15T15:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UspesnoLogovanje -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.login.TNGAnnotations@48eff760]" name="afterClass" is-config="true" duration-ms="1105" started-at="2016-08-15T15:51:54Z" finished-at="2016-08-15T15:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.login.TNGAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
